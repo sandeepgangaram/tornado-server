@@ -13,3 +13,5 @@ if __name__ == "__main__":
     port = 8882;
     app.listen(port);
     print(f"Listening on port {port}");
+    tornado.ioloop.IOLoop.current().start();
+
